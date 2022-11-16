@@ -26,32 +26,34 @@
         <script src="https://kit.fontawesome.com/1a04278299.js" crossorigin="anonymous"></script>
     </head>
     <body data-aos-easing="ease-out-back">
+        <div class="navbar-fixed">
+            <a href=#landing><i class="fa-solid fa-house fa-2x"></i></a>
+            <a href=#types><i class="fa-solid fa-font fa-2x"></i></a>
+            <a href=#solutions><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+            <a href=#something id="toggle-pink"><i class="fa-solid fa-toggle-off fa-2x" id="toggle-pink-icon"></i></a>
+        </div>
         <div class="main-body-wrapper animate__animated animate__fadeIn animate__delay-1s">
+            <a name="landing">
             <div class="landing-section">
                 <div class="landing-wrapper">
                     <div class="left-side">
                         <div class="landing-image">
-                            <img src="assets/landing.png">
+                            <img src="assets/landing.png" id="landing-img">
                         </div>
                     </div>
                     <div class="padding-xlg"></div>
                     <div class="right-side">
                         <div class="landing-title"> <span style="color: var(--white);">MIS</span><br><span class="second">INFORMATION</span><span style="font-size: 2vmax; color: var(--white);" class="disappear">/misinfər'māSH(ə)n/<span></div>
                         <div class="landing-info">false or inaccurate information, especially that which <br>is deliberately intended to deceive.</div>
-                        <div class="padding-sm"></div>
-                        <!--<div class="down-button">
-                            <i class="fa-solid fa-angles-down fa-4x" style="color: var(--white);"></i>
-                        </div>-->
                     </div>
                 </div>
             </div>
-
+            </a>
             <div class="padding-sm"></div>
-
+            <a name="types">
             <div class="types-section">
                 <div class="types-title" data-aos="fade-up">TYPES OF <span class="second">MISINFORMATION</span></div>
                 <div class="types-wrapper">
-
                     <div class="types-row-1" data-aos="fade-up">
                         <div class="image">
                             <img class="image__img" src="assets/types/satire.png" alt="Valorant">
@@ -114,10 +116,10 @@
                     </div>
                 </div>
             </div>
-
+            </a>
             <div class="padding-xxlg"></div>
             <div class="padding-xxlg"></div>
-
+            <a name="solutions">
             <div class="solutions-section">
                 <div class="solutions-title" data-aos="fade-up">RECOGNIZE, FIGHT, ELIMINATE</div>
                 <div class="padding-xlg"></div>
@@ -142,9 +144,7 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="padding-xlg"></div> 
-
                     <div class="solutions-container-wrapper">
                         <div class="solutions-container" data-aos="fade-up"> <!--Left-->
                             <div class="solutions-info">
@@ -165,16 +165,41 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="padding-xlg"></div> 
-
                 </div>
             </div>
+            </a>
         </div>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();
+
+            var pinkToggle = false;
+
+            $( "#toggle-pink" ).click(function() {
+                if (pinkToggle == false) {
+                    $("#toggle-pink-icon").removeClass("fa-toggle-off");
+                    $("#toggle-pink-icon").addClass("fa-toggle-on");
+                    pinkToggle = true;
+                    document.documentElement.style.setProperty('--lightred', '#FB3B9A');
+                    document.documentElement.style.setProperty('--black', '#FFFFFF');
+                    document.documentElement.style.setProperty('--white', '#1f1f1f');
+                    document.documentElement.style.setProperty('--whiter', '#1f1f1f');
+                    document.documentElement.style.setProperty('--grey', '#8F8F8F');
+                    $("#landing-img").attr("src","assets/landing-inverted.png");
+                } else if (pinkToggle == true) {
+                    $("#toggle-pink-icon").removeClass("fa-toggle-on");
+                    $("#toggle-pink-icon").addClass("fa-toggle-off"); 
+                    pinkToggle = false;
+                    document.documentElement.style.setProperty('--lightred', '#a80000');
+                    document.documentElement.style.setProperty('--black', '#1f1f1f');
+                    document.documentElement.style.setProperty('--white', '#d4d4d4');
+                    document.documentElement.style.setProperty('--whiter', '#FFFFFF');
+                    document.documentElement.style.setProperty('--grey', '#707070');
+                    $("#landing-img").attr("src","assets/landing.png");
+                }
+            });
         </script>  
     </body>
 </html>

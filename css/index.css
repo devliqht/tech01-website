@@ -81,5 +81,39 @@ body {
         border-radius: 15px;
     }
     /* ------------------ */
-} /*
+} 
 
+.navbar-fixed {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 1.5vmax;
+    left: 1.5vmax;
+    height: fit-content;
+    background: #3a3a3a;
+    border: 5px solid #3a3a3a;
+    border-radius: 10px;
+    opacity: 0.40;
+    z-index: 5;
+    transition: opacity 0.3s;
+}
+
+.navbar-fixed > a {
+    margin: 5px;
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.navbar-fixed > a:hover {
+    background: #515151;
+    color: var(--lightred);
+}
+
+.navbar-fixed:hover {
+    opacity: 1;
+}
