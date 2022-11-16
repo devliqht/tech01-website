@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/landing.css">
         <link rel="stylesheet" href="css/types.css">
+        <link rel="stylesheet" href="css/responsive.css">
         <link rel="icon" href="assets/icon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,9 +32,6 @@
     </head>
     <body>
         <div class="main-body-wrapper animate__animated animate__fadeIn animate__delay-1s">
-            <div class="down-button">
-                <i class="fa-solid fa-angles-down fa-2xl" style="color: white;"></i>
-            </div>
             <div class="landing-section">
                 <div class="landing-wrapper">
                     <div class="left-side">
@@ -43,25 +41,42 @@
                     </div>
                     <div class="padding-xlg"></div>
                     <div class="right-side">
-                        <div class="landing-title"> <span style="color: var(--white);">MIS</span><br><span style="color: var(--lightred);">INFORMATION</span><span style="font-size: 2rem; color: var(--white);">/misinfər'māSH(ə)n/<span></div>
-                        <div class="landing-info">false or inaccurate information, especially that which <br>is deliberately intended to deceive. <br> <span style="font-size: 1rem; color: var(--white);">Oxford Languages</span></div>
+                        <div class="landing-title"> <span style="color: var(--white);">MIS</span><br><span style="color: var(--lightred);">INFORMATION</span><span style="font-size: 2vmax; color: var(--white);" class="disappear">/misinfər'māSH(ə)n/<span></div>
+                        <div class="landing-info">false or inaccurate information, especially that which <br>is deliberately intended to deceive.</div>
+                        <div class="padding-sm"></div>
+                        <!--<div class="down-button">
+                            <i class="fa-solid fa-angles-down fa-4x" style="color: var(--white);"></i>
+                        </div>-->
                     </div>
                 </div>
             </div>
 
-            <div class="types-section">
-                <div class="types-title" data-aos="fade-up" data-aos-duration="1500">TYPES OF <span style="color: var(--red);">MISINFORMATION</span></div>
+            <div class="padding-sm"></div>
+
+            <div class="types-section" data-aos="fade-up" >
+                <div class="types-title">TYPES OF <span style="color: var(--red);">MISINFORMATION</span></div>
                 <div class="types-wrapper">
                     <div class="types-row-1">
-                        <div class="type-1"></div>
-                        <div class="type-2"></div>
-                        <div class="type-3"></div>
-                        <div class="type-4"></div>
+                        <div class="type">
+                            <img class="type-img" src="assets/types/satire.png">
+                        </div>
+                        <div class="type">
+                            <img class="type-img" src="assets/types/fabri.png">
+                        </div>
+                        <div class="type">
+                            <img class="type-img" src="assets/types/impostor.png">
+                        </div>
                     </div>
                     <div class="types-row-2">
-                        <div class="type-5"></div>
-                        <div class="type-6"></div>
-                        <div class="type-7"></div>
+                        <div class="type">
+                            <img class="type-img" src="assets/types/misleading.png">
+                        </div>
+                        <div class="type">
+                            <img class="type-img" src="assets/types/false.png">
+                        </div>
+                        <div class="type">
+                            <img class="type-img" src="assets/types/manipulation.png">
+                        </div>
                     </div>
                 </div>
             </div>

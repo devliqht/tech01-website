@@ -1,0 +1,19 @@
+@media screen and (max-width: 884px) /* Recommended width for phones. */ { 
+    .landing-wrapper {
+        flex-direction: column;
+    }
+    .types-row-1, .types-row-2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .landing-title {
+        font-size: 10rem; 
+        text-align: center;
+    }
+    .disappear {
+        display: none;
+    }
+    .landing-info {
+        text-align: center;
+    }
+}

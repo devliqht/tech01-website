@@ -1,11 +1,41 @@
 .types-section {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 .types-title {
-    color: var(--white);
+    color: var(--whiter);
     font-family: 'League Gothic', sans-serif;
-    font-size: 6rem; 
+    font-size: 6vmax; 
     text-align: center;
+}
+
+.types-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.types-row-1, .types-row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.type {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    background-color: var(--whiter);
+    border: 15px solid var(--whiter);
+}
+
+.type:hover {
+    background-color: var(--lightred);
+    border: 15px solid var(--darkred);
+    transition: 0.2s;
+}
+
+.type > .type-img {
+    object-fit: cover;
+    padding: 15px;
 }

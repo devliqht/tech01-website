@@ -1,9 +1,5 @@
 .down-button {
-    position: fixed;
-    left: 50%;
-    right: 50%;
-    top: 90%;
-    z-index: 5;
+
 }
 
 .landing-section {
@@ -23,26 +19,28 @@
 .left-side {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .right-side {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .landing-title {
     font-family: 'League Gothic', sans-serif;
-    font-size: 12rem; 
+    font-size: 10vmax; 
     line-height: 0.9;
 }
 
 .landing-image > img {
-    width: 400px;
+    width: 25vmax;
     height: auto;
 }
 
 .landing-info {
     color: var(--white);
     font-family: 'PT Serif', serif;
-    font-size: 2rem;
+    font-size: 1.5vmax;
 }
