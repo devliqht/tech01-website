@@ -1,0 +1,84 @@
+:root {
+    --grey: #707070;
+    --black: #1f1f1f;
+    --white: #d4d4d4;
+    --darkred: #731010;
+    --lightred: #a80000;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    font-smooth: always;
+}
+
+body {
+    background-color: var(--black);
+    overflow-x: hidden;
+}
+
+.font-league {
+    font-family: 'League Gothic', sans-serif;
+}
+
+.font-pt {
+    font-family: 'PT Serif', serif;
+}
+
+.padding-sm {
+    padding: 10px;
+}
+
+.padding-sm-reverse {
+
+}
+
+.padding-md {
+    padding: 15px;
+}
+
+.padding-lg {
+    padding: 20px;
+}
+
+.padding-xlg {
+    padding: 30px;
+}
+
+.padding-xxlg {
+    padding: 40px;
+}
+
+.padding-xxxlg {
+    padding: 55px;
+}
+
+.center_content {
+    justify-content: center;
+}
+
+/* Desktop Format */
+/* Only desktop screens can see this */
+@media only screen and (min-width: 884px) {
+    .navbar-flex > .responsive_sidebar_icon {
+        display: none;
+    }
+
+    /* ------------------ */
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #181818;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: white;
+        border-radius: 15px;
+    }
+    /* ------------------ */
+} /*
+

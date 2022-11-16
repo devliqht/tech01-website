@@ -1,0 +1,48 @@
+.down-button {
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    top: 90%;
+    z-index: 5;
+}
+
+.landing-section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.landing-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-title {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 12rem; 
+    line-height: 0.9;
+}
+
+.landing-image > img {
+    width: 400px;
+    height: auto;
+}
+
+.landing-info {
+    color: var(--white);
+    font-family: 'PT Serif', serif;
+    font-size: 2rem;
+}

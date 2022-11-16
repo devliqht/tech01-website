@@ -1,0 +1,11 @@
+.types-section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.types-title {
+    color: var(--white);
+    font-family: 'League Gothic', sans-serif;
+    font-size: 6rem; 
+    text-align: center;
+}
