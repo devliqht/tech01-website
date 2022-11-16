@@ -16,4 +16,11 @@
     .landing-info {
         text-align: center;
     }
+    .solutions-container-wrapper {
+        flex-direction: column !important; 
+    }
+    .solutions-container {
+        flex-direction: column !important;
+        justify-content: center;
+    }
 }

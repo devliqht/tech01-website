@@ -51,6 +51,10 @@
     height: auto;
 }
 
+.special:hover {
+    filter: invert(1);
+}
+
 .landing-info {
     color: var(--white);
     font-family: 'PT Serif', serif;
