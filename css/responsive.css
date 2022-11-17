@@ -2,9 +2,24 @@
     .landing-wrapper {
         flex-direction: column;
     }
+    .landing-image {
+        text-align: center;
+       
+    }
+    .landing-title {
+        padding: 10px;
+        font-size: 7rem !important;
+    }
+    .landing-info {
+        font-size: 1.7rem;
+        padding: 15px;
+    }
     .types-row-1, .types-row-2 {
         flex-direction: column;
         justify-content: center;
+    }
+    .types-title {
+        font-size: 5.5rem;
     }
     .landing-title {
         font-size: 10rem; 
