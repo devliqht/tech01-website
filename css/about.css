@@ -1,0 +1,38 @@
+.about-section {
+    width: 100%;
+    height: 100%;
+}
+
+.about-title {
+    color: var(--whiter);
+    font-family: 'League Gothic', sans-serif;
+    font-size: 6vmax; 
+    text-align: center;
+}
+
+.subheader {
+    color: var(--white); text-align: center; font-family: 'Poppins', sans-serif;
+}
+
+.name {
+    color: var(--lightred); text-align: center; font-family: 'Roboto Mono', monospace; font-size: 2rem;
+}
+
+.position {
+    color: var(--white); text-align: center; font-family: 'Poppins', sans-serif; font-size: 1.4rem; letter-spacing: 0.3rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer h1 {
+    color: var(--white);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    font-weight: 100;
+}

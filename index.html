@@ -15,21 +15,24 @@
         <link rel="stylesheet" href="css/types.css">
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/solutions.css">
+        <link rel="stylesheet" href="css/about.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <link rel="icon" href="assets/icon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=PT+Serif&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Covered+By+Your+Grace&family=League+Gothic&family=PT+Serif&family=Poppins&family=Roboto+Mono&display=swap" rel="stylesheet">
 
         <script src="https://kit.fontawesome.com/1a04278299.js" crossorigin="anonymous"></script>
     </head>
     <body data-aos-easing="ease-out-back">
+        <div class="progress"></div>
         <div class="navbar-fixed" id="navbar">
             <a href=#landing id="landingt" class="navbar-toggle"><i class="fa-solid fa-house fa-2x"></i></a>
-            <a href=#types id="typest" class="navbar-toggle"><i class="fa-solid fa-circle-info fa-2x"></i></a>
+            <a href=#types id="typest" class="navbar-toggle"><i class="fa-solid fa-masks-theater fa-2x"></i></a>
             <a href=#solutions id="solutionst" class="navbar-toggle"><i class="fa-solid fa-globe fa-2x"></i></a>
+            <a href=#about id="aboutt" class="navbar-toggle"><i class="fa-solid fa-circle-info fa-2x"></i></a>
             <a href=#something id="toggle-pink" class="navbar-toggle"><i class="fa-solid fa-toggle-off fa-2x" id="toggle-pink-icon"></i></a>
             <a href=#somethingalso id="toggle-orient"><i class="fa-solid fa-bars fa-2x"></i></a>
         </div>
@@ -50,13 +53,14 @@
                 </div>
             </div>
             </a>
-            <div class="padding-sm"></div>
+            <div class="padding-xxlg"></div>
+            <div class="padding-xxlg"></div>
             <a name="types">
             <div class="types-section">
                 <div class="types-title" data-aos="fade-up">TYPES OF <span class="second">MISINFORMATION</span></div>
                 <div class="types-wrapper">
-                    <div class="types-row-1" data-aos="fade-up">
-                        <div class="image">
+                    <div class="types-row-1">
+                        <div class="image" data-aos="fade-down-right">
                             <img class="image__img" src="assets/types/satire.png" id="types-img-1" alt="Valorant">
                             <div class="image__overlay image__overlay--blur">
                                 <div class="image__title">SATIRE CONTENT</div>
@@ -65,7 +69,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="image">
+                        <div class="image" data-aos="fade-down">
                             <img class="image__img" src="assets/types/fabri.png" id="types-img-2" alt="Valorant">
                             <div class="image__overlay image__overlay--blur">
                                 <div class="image__title">FABRICATED CONTENT</div>
@@ -74,7 +78,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="image">
+                        <div class="image" data-aos="fade-down-left">
                             <img class="image__img" src="assets/types/impostor.png" id="types-img-3" alt="Valorant">
                             <div class="image__overlay image__overlay--blur">
                                 <div class="image__title">IMPOSTOR CONTENT</div>
@@ -85,8 +89,8 @@
                         </div>
                     </div>
 
-                    <div class="types-row-2" data-aos="fade-up">
-                    <div class="image">
+                    <div class="types-row-2">
+                    <div class="image" data-aos="fade-up-right">
                         <img class="image__img" src="assets/types/misleading.png" id="types-img-4" alt="Valorant">
                         <div class="image__overlay image__overlay--blur">
                             <div class="image__title">MISLEADING CONTENT</div>
@@ -95,7 +99,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="image">
+                    <div class="image" data-aos="fade-up">
                         <img class="image__img" src="assets/types/false.png" id="types-img-5" alt="Valorant">
                         <div class="image__overlay image__overlay--blur">
                             <div class="image__title">FALSE CONTEXT</div>
@@ -104,7 +108,7 @@
                             </p>
                     </div>
                     </div>
-                    <div class="image">
+                    <div class="image" data-aos="fade-up-left">
                         <img class="image__img" src="assets/types/manipulation.png" id="types-img-6" alt="Valorant">
                         <div class="image__overlay image__overlay--blur">
                             <div class="image__title">MANIPULATED CONTENT</div>
@@ -126,20 +130,20 @@
                 <div class="padding-xlg"></div>
                 <div class="solutions-wrapper">
                     <div class="solutions-container-wrapper">
-                        <div class="solutions-container left" data-aos="fade-up"> <!--Left-->
-                            <div class="solutions-img">
+                        <div class="solutions-container left"> <!--Left-->
+                            <div class="solutions-img" data-aos="fade-up">
                                 <img src="assets/solutions/research.png" id="solutions-img-1">
                             </div>
-                            <div class="solutions-info">
+                            <div class="solutions-info" data-aos="fade-right">
                                 <div class="solutions-info-title-left">RESEARCH</div>
                                 <div class="solutions-description-left">Make sure to look up multiple articles, forums and other forms of information literature regarding your topic before making judgement.</div>
                             </div>
                         </div>
-                        <div class="solutions-container" data-aos="fade-up"> <!--Right-->
-                            <div class="solutions-img">
+                        <div class="solutions-container"> <!--Right-->
+                            <div class="solutions-img" data-aos="fade-up">
                                 <img src="assets/solutions/source.png" id="solutions-img-2">
                             </div>
-                            <div class="solutions-info">
+                            <div class="solutions-info" data-aos="fade-left">
                                 <div class="solutions-info-title-right">SOURCE</div>
                                 <div class="solutions-description-right">Identify if the source of the information is legitimate, authentic and timely. Avoid sketchy sources or simply gossips from people as they are not a reliable source of information.</div>
                             </div>
@@ -147,29 +151,59 @@
                     </div>
                     <div class="padding-xlg"></div> 
                     <div class="solutions-container-wrapper">
-                        <div class="solutions-container left" data-aos="fade-up"> <!--Left-->
-                            <div class="solutions-img">
+                        <div class="solutions-container left"> <!--Left-->
+                            <div class="solutions-img" data-aos="fade-up">
                                 <img src="assets/solutions/evaluate.png" id="solutions-img-3">
                             </div>
-                            <div class="solutions-info">
+                            <div class="solutions-info" data-aos="fade-right">
                                 <div class="solutions-info-title-left">EVALUATE</div>
                                 <div class="solutions-description-left">Evaluate the information through a criteria, generally you will want to ask these questions: Is the information current? Is it relevant to your research? Is the author of the news legitimate and trustworthy? Is the information supported by evidences and credible sources? What purpose does the information serve?</div>
                             </div>
                         </div>
-                        <div class="solutions-container" data-aos="fade-up"> <!--Right-->
-                            <div class="solutions-img">
+                        <div class="solutions-container"> <!--Right-->
+                            <div class="solutions-img" data-aos="fade-up">
                                 <img src="assets/solutions/factcheck.png" id="solutions-img-4">
                             </div>
-                            <div class="solutions-info">
+                            <div class="solutions-info" data-aos="fade-left">
                                 <div class="solutions-info-title-right">FACT CHECK</div>
                                 <div class="solutions-description-right">As a general guideline, you should verify information by finding the same details from three more reliable sources. If you have any difficulty accomplishing this, it means that what you're reading is not entirely accurate. </div>
                             </div>
                         </div>
                     </div>
-                    <div class="padding-xlg"></div> 
                 </div>
             </div>
             </a>
+            <div class="padding-xxlg"></div>
+            <a name="about">
+                <div class="about-section">
+                    <div class="about-title" data-aos="fade-up">GROUP 6 WEBSITE</div>
+                    <h1 class="subheader" data-aos="fade-up">TECH01 PT Misinformation Campaign</h1>
+                    <div class="padding-lg" data-aos="fade-up"></div>
+                        <h2 class="name" data-aos="fade-up">Matt Cabarrubias</h2>
+                        <h4 class="position" data-aos="fade-up">Graphic & Web Designer</h4>
+                    <div class="padding-lg" data-aos="fade-up"></div>
+                        <h2 class="name"data-aos="fade-up">Edj Lawrence Mayormita</h2>
+                        <h4 class="position"data-aos="fade-up">Web Project Manager</h4>
+                    <div class="padding-lg"data-aos="fade-up"></div>
+                        <h2 class="name"data-aos="fade-up">Tristan James Alivio</h2>
+                        <h4 class="position"data-aos="fade-up">Content Development</h4>
+                    <div class="padding-lg"data-aos="fade-up"></div>
+                        <h2 class="name"data-aos="fade-up">John Paul Yap</h2>
+                        <h4 class="position"data-aos="fade-up">Usability Tester</h4>
+                    <div class="padding-lg"data-aos="fade-up"></div>
+                </div>
+
+                <div class="padding-lg"></div>
+
+                <div class="footer">
+                    <h1>100% manual coding.</h1>
+                    <h1>Not made with website creators.</h1>
+                    <h1>Source code available on Github.</h1>
+                </div>
+
+                <div class="padding-md"></div>
+            </a>
+
         </div>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -184,12 +218,14 @@
                     $( "#landingt" ).hide();
                     $( "#typest" ).hide();
                     $( "#solutionst" ).hide();
+                    $( "#aboutt" ).hide();
                     $( "#toggle-pink" ).hide();
                     hideNav = true;
                 } else if (hideNav == true) {
                     $( "#landingt" ).show();
                     $( "#typest" ).show();
                     $( "#solutionst" ).show();
+                    $( "#aboutt" ).show();
                     $( "#toggle-pink" ).show();
                     hideNav = false;
                 }
@@ -250,6 +286,14 @@
 
                 }
             });
+
+            $(document).on("scroll", function(){
+            var pixels = $(document).scrollTop();
+            var pageHeight = $(document).height() - $(window).height();
+            var progress = 100 * pixels / pageHeight;
+            
+            $("div.progress").css("width", progress + "%");
+            })
         </script>  
     </body>
 </html>

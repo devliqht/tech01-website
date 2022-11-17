@@ -53,6 +53,6 @@
 
 .landing-info {
     color: var(--white);
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 1.5vmax;
 }
