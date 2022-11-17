@@ -27,6 +27,18 @@
     justify-content: center;
 }
 
+.left {
+    flex-direction: row-reverse;
+}
+.solutions-img {
+    justify-content: center;
+    text-align: center;
+}
+
+.solutions-img > img {
+    width: 90%;
+}
+
 .solutions-info {
     display: flex;
     flex-direction: column;
@@ -41,7 +53,7 @@
 
 .solutions-description-left {
     color: var(--white);
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: justify;
     width: 25vmax;
 }
@@ -55,7 +67,7 @@
 
 .solutions-description-right {
     color: var(--white);
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: justify;
     width: 25vmax;
 }

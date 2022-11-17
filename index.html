@@ -26,11 +26,12 @@
         <script src="https://kit.fontawesome.com/1a04278299.js" crossorigin="anonymous"></script>
     </head>
     <body data-aos-easing="ease-out-back">
-        <div class="navbar-fixed">
-            <a href=#landing><i class="fa-solid fa-house fa-2x"></i></a>
-            <a href=#types><i class="fa-solid fa-font fa-2x"></i></a>
-            <a href=#solutions><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
-            <a href=#something id="toggle-pink"><i class="fa-solid fa-toggle-off fa-2x" id="toggle-pink-icon"></i></a>
+        <div class="navbar-fixed" id="navbar">
+            <a href=#landing id="landing" class="navbar-toggle"><i class="fa-solid fa-house fa-2x"></i></a>
+            <a href=#types id="types" class="navbar-toggle"><i class="fa-solid fa-circle-info fa-2x"></i></a>
+            <a href=#solutions id="solutions" class="navbar-toggle"><i class="fa-solid fa-globe fa-2x"></i></a>
+            <a href=#something id="toggle-pink" class="navbar-toggle"><i class="fa-solid fa-toggle-off fa-2x" id="toggle-pink-icon"></i></a>
+            <a href=#somethingalso id="toggle-orient"><i class="fa-solid fa-bars fa-2x"></i></a>
         </div>
         <div class="main-body-wrapper animate__animated animate__fadeIn animate__delay-1s">
             <a name="landing">
@@ -56,7 +57,7 @@
                 <div class="types-wrapper">
                     <div class="types-row-1" data-aos="fade-up">
                         <div class="image">
-                            <img class="image__img" src="assets/types/satire.png" alt="Valorant">
+                            <img class="image__img" src="assets/types/satire.png" id="types-img-1" alt="Valorant">
                             <div class="image__overlay image__overlay--blur">
                                 <div class="image__title">SATIRE CONTENT</div>
                                 <p class="image__description">
@@ -65,7 +66,7 @@
                             </div>
                         </div>
                         <div class="image">
-                            <img class="image__img" src="assets/types/fabri.png" alt="Valorant">
+                            <img class="image__img" src="assets/types/fabri.png" id="types-img-2" alt="Valorant">
                             <div class="image__overlay image__overlay--blur">
                                 <div class="image__title">FABRICATED CONTENT</div>
                                 <p class="image__description">
@@ -74,7 +75,7 @@
                             </div>
                         </div>
                         <div class="image">
-                            <img class="image__img" src="assets/types/impostor.png" alt="Valorant">
+                            <img class="image__img" src="assets/types/impostor.png" id="types-img-3" alt="Valorant">
                             <div class="image__overlay image__overlay--blur">
                                 <div class="image__title">IMPOSTOR CONTENT</div>
                                 <p class="image__description">
@@ -86,7 +87,7 @@
 
                     <div class="types-row-2" data-aos="fade-up">
                     <div class="image">
-                        <img class="image__img" src="assets/types/misleading.png" alt="Valorant">
+                        <img class="image__img" src="assets/types/misleading.png" id="types-img-4" alt="Valorant">
                         <div class="image__overlay image__overlay--blur">
                             <div class="image__title">MISLEADING CONTENT</div>
                             <p class="image__description">
@@ -95,7 +96,7 @@
                         </div>
                     </div>
                     <div class="image">
-                        <img class="image__img" src="assets/types/false.png" alt="Valorant">
+                        <img class="image__img" src="assets/types/false.png" id="types-img-5" alt="Valorant">
                         <div class="image__overlay image__overlay--blur">
                             <div class="image__title">FALSE CONTEXT</div>
                             <p class="image__description">
@@ -104,7 +105,7 @@
                     </div>
                     </div>
                     <div class="image">
-                        <img class="image__img" src="assets/types/manipulation.png" alt="Valorant">
+                        <img class="image__img" src="assets/types/manipulation.png" id="types-img-6" alt="Valorant">
                         <div class="image__overlay image__overlay--blur">
                             <div class="image__title">MANIPULATED CONTENT</div>
                             <p class="image__description">
@@ -125,18 +126,18 @@
                 <div class="padding-xlg"></div>
                 <div class="solutions-wrapper">
                     <div class="solutions-container-wrapper">
-                        <div class="solutions-container" data-aos="fade-up"> <!--Left-->
+                        <div class="solutions-container left" data-aos="fade-up"> <!--Left-->
+                            <div class="solutions-img">
+                                <img src="assets/solutions/research.png" id="solutions-img-1">
+                            </div>
                             <div class="solutions-info">
                                 <div class="solutions-info-title-left">RESEARCH</div>
                                 <div class="solutions-description-left">Make sure to look up multiple articles, forums and other forms of information literature regarding your topic before making judgement.</div>
                             </div>
-                            <div class="solutions-img">
-                                <img src="assets/solutions/research.png">
-                            </div>
                         </div>
                         <div class="solutions-container" data-aos="fade-up"> <!--Right-->
                             <div class="solutions-img">
-                                <img src="assets/solutions/source.png">
+                                <img src="assets/solutions/source.png" id="solutions-img-2">
                             </div>
                             <div class="solutions-info">
                                 <div class="solutions-info-title-right">SOURCE</div>
@@ -146,18 +147,18 @@
                     </div>
                     <div class="padding-xlg"></div> 
                     <div class="solutions-container-wrapper">
-                        <div class="solutions-container" data-aos="fade-up"> <!--Left-->
+                        <div class="solutions-container left" data-aos="fade-up"> <!--Left-->
+                            <div class="solutions-img">
+                                <img src="assets/solutions/evaluate.png" id="solutions-img-3">
+                            </div>
                             <div class="solutions-info">
                                 <div class="solutions-info-title-left">EVALUATE</div>
                                 <div class="solutions-description-left">Evaluate the information through a criteria, generally you will want to ask these questions: Is the information current? Is it relevant to your research? Is the author of the news legitimate and trustworthy? Is the information supported by evidences and credible sources? What purpose does the information serve?</div>
                             </div>
-                            <div class="solutions-img">
-                                <img src="assets/solutions/evaluate.png">
-                            </div>
                         </div>
                         <div class="solutions-container" data-aos="fade-up"> <!--Right-->
                             <div class="solutions-img">
-                                <img src="assets/solutions/factcheck.png">
+                                <img src="assets/solutions/factcheck.png" id="solutions-img-4">
                             </div>
                             <div class="solutions-info">
                                 <div class="solutions-info-title-right">FACT CHECK</div>
@@ -176,6 +177,23 @@
             AOS.init();
 
             var pinkToggle = false;
+            var hideNav = false;
+
+            $( "#toggle-orient" ).click(function() {
+                if (hideNav == false) {
+                    $( "#landing" ).hide();
+                    $( "#types" ).hide();
+                    $( "#solutions" ).hide();
+                    $( "#toggle-pink" ).hide();
+                    hideNav = true;
+                } else if (hideNav == true) {
+                    $( "#landing" ).show();
+                    $( "#types" ).show();
+                    $( "#solutions" ).show();
+                    $( "#toggle-pink" ).show();
+                    hideNav = false;
+                }
+            });
 
             $( "#toggle-pink" ).click(function() {
                 if (pinkToggle == false) {
@@ -188,6 +206,19 @@
                     document.documentElement.style.setProperty('--whiter', '#1f1f1f');
                     document.documentElement.style.setProperty('--grey', '#8F8F8F');
                     $("#landing-img").attr("src","assets/landing-inverted.png");
+
+                    $("#solutions-img-1").attr("src","assets/solutions/inverted/research-inverted.png");
+                    $("#solutions-img-2").attr("src","assets/solutions/inverted/source-inverted.png");
+                    $("#solutions-img-3").attr("src","assets/solutions/inverted/evaluate-inverted.png");
+                    $("#solutions-img-4").attr("src","assets/solutions/inverted/factcheck-inverted.png");
+
+                    $("#types-img-1").attr("src","assets/types/inverted/satire-inverted.png");
+                    $("#types-img-2").attr("src","assets/types/inverted/fabri-inverted.png");
+                    $("#types-img-3").attr("src","assets/types/inverted/impostor-inverted.png");
+                    $("#types-img-4").attr("src","assets/types/inverted/misleading-inverted.png");
+                    $("#types-img-5").attr("src","assets/types/inverted/false-inverted.png");
+                    $("#types-img-6").attr("src","assets/types/inverted/manipulation-inverted.png");
+
                 } else if (pinkToggle == true) {
                     $("#toggle-pink-icon").removeClass("fa-toggle-on");
                     $("#toggle-pink-icon").addClass("fa-toggle-off"); 
@@ -198,6 +229,19 @@
                     document.documentElement.style.setProperty('--whiter', '#FFFFFF');
                     document.documentElement.style.setProperty('--grey', '#707070');
                     $("#landing-img").attr("src","assets/landing.png");
+
+                    $("#solutions-img-1").attr("src","assets/solutions/research.png");
+                    $("#solutions-img-2").attr("src","assets/solutions/source.png");
+                    $("#solutions-img-3").attr("src","assets/solutions/evaluate.png");
+                    $("#solutions-img-4").attr("src","assets/solutions/factcheck.png");
+
+                    $("#types-img-1").attr("src","assets/types/satire.png");
+                    $("#types-img-2").attr("src","assets/types/fabri.png");
+                    $("#types-img-3").attr("src","assets/types/impostor.png");
+                    $("#types-img-4").attr("src","assets/types/misleading.png");
+                    $("#types-img-5").attr("src","assets/types/false.png");
+                    $("#types-img-6").attr("src","assets/types/manipulation.png");
+
                 }
             });
         </script>  

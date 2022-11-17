@@ -16,11 +16,31 @@
     .landing-info {
         text-align: center;
     }
+    .solutions-wrapper {
+        padding: 20px;
+    }
+    .solutions-title {
+        font-size: 9vmax !important;
+    }
     .solutions-container-wrapper {
         flex-direction: column !important; 
     }
     .solutions-container {
         flex-direction: column !important;
         justify-content: center;
+        margin-bottom: 20px;
+    }
+    .solutions-img > img {
+        width: 220px !important;
+    }
+    .solutions-info {
+        justify-content: center;
+        margin: 10px;
+    }
+    .solutions-info-title-left, .solutions-info-title-right {
+        text-align: center !important;
+    }
+    .solutions-description-left, .solutions-description-right {
+        width: 100% !important;
     }
 }

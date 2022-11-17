@@ -5,6 +5,7 @@
     --whiter:rgb(255, 251, 251);
     --darkred: #731010;
     --lightred: #a80000;
+    --green: #ACD03A;
 }
 
 * {
@@ -117,3 +118,4 @@ body {
 .navbar-fixed:hover {
     opacity: 1;
 }
+
