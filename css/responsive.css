@@ -4,14 +4,13 @@
     }
     .landing-image {
         text-align: center;
-       
     }
     .landing-title {
         padding: 10px;
-        font-size: 7rem !important;
+        font-size: 6rem !important;
     }
     .landing-info {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         padding: 15px;
     }
     .types-row-1, .types-row-2 {
@@ -19,7 +18,7 @@
         justify-content: center;
     }
     .types-title {
-        font-size: 5.5rem;
+        font-size: 4.5rem;
     }
     .landing-title {
         font-size: 10rem; 
@@ -30,9 +29,6 @@
     }
     .landing-info {
         text-align: center;
-    }
-    .solutions-wrapper {
-        padding: 20px;
     }
     .solutions-title {
         font-size: 9vmax !important;

@@ -18,11 +18,10 @@
     padding: 0;
     margin: 0;
     font-smooth: always;
-
 }
 
+
 body {
-    background-color: var(--black);
     overflow-x: hidden;
     background-color: var(--black);
     background-image:  
@@ -40,6 +39,7 @@ body {
 .main-body-wrapper {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .font-league {
     font-family: 'League Gothic', sans-serif;
@@ -145,10 +145,6 @@ body {
 .navbar-fixed:hover {
     opacity: 1;
 }
-
-
-
-
 
 .progress { position: fixed; top: 0; left: 0; height: 5px; background-color: var(--lightred); transition: all linear 0.1s; min-width: 1%; z-index: 6; }
 .content { width: 100%; height: 100vh; margin-bottom: 5px; display: flex; flex-direction: row; justify-content: center; align-items: center; }
