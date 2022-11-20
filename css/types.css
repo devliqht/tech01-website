@@ -1,7 +1,15 @@
 .types-section {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
 }
+.types-section::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
 
 .types-title {
     color: var(--whiter);
@@ -13,6 +21,7 @@
 .types-wrapper {
     display: flex;
     flex-direction: column;
+    padding: 25px;
 }
 
 .types-row-1, .types-row-2 {
@@ -63,7 +72,8 @@
 
 .image__img {
     display: block;
-    width: 100%;
+    max-width:100%;
+    height:auto;
     padding: 25px;
 }
 

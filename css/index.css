@@ -39,7 +39,6 @@ body {
 .main-body-wrapper {
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 .font-league {
     font-family: 'League Gothic', sans-serif;

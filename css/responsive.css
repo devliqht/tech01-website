@@ -53,5 +53,10 @@
     }
     .solutions-description-left, .solutions-description-right {
         width: 100% !important;
+        font-size: 1.5rem !important;
+    }
+    .types-wrapper {
+        justify-content: center;
+        align-items: center;
     }
 }
