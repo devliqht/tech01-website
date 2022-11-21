@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/solutions.css">
         <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/define.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -30,6 +31,7 @@
         <div class="progress"></div>
         <div class="navbar-fixed" id="navbar">
             <a href=#landing id="landingt" class="navbar-toggle"><i class="fa-solid fa-house fa-xl"></i></a>
+            <a href=#define id="definet" class="navbar-toggle"><i class="fa-solid fa-circle-question fa-xl"></i></a>
             <a href=#types id="typest" class="navbar-toggle"><i class="fa-solid fa-masks-theater fa-xl"></i></a>
             <a href=#solutions id="solutionst" class="navbar-toggle"><i class="fa-solid fa-globe fa-xl"></i></a>
             <a href=#about id="aboutt" class="navbar-toggle"><i class="fa-solid fa-circle-info fa-xl"></i></a>
@@ -53,9 +55,33 @@
                 </div>
             </div>
             </a>
+            <a name="define">
+                <div class="define-section">
+                    <div class="padding-sm"></div>
+                    <div class="define-title" data-aos="fade-up">WHAT IS <span class="second">IT?</span></div>
+                    <div class="define-desc" data-aos="fade-up">
+                        <p>Inaccurate or deceptive information is called misinformation. It differs from disinformation, which is blatantly false information. Rumors are inaccurate and frequently unverified information that cannot be shown to be true or incorrect. They are information that is not assigned to a specific source.</p>
+                    </div>
+                    <div class="padding-md"></div>
+                    <div class="define-title" data-aos="fade-up">CAUSES OF <span class="second">MISINFORMATION</span></div>
+                    <div class="define-images" data-aos="fade-up">
+                        <div class="define-img">
+                            <img src="assets/causes/collapse.png">
+                            <h2>Collapsing traditional business models</h2>
+                        </div>
+                        <div class="define-img">
+                            <img src="assets/causes/transformation.png">
+                            <h2>Digital transformation of newsrooms and storytelling</h2>
+                        </div>
+                        <div class="define-img">
+                            <img src="assets/causes/ecosystem.png">
+                            <h2>The creation of new news ecosystems</h2>
+                        </div>
+                    </div>
+                </div>
+            </a>
             <a name="types">
             <div class="types-section">
-                <div class="padding-sm"></div>
                 <div class="types-title" data-aos="fade-up">TYPES OF <span class="second">MISINFORMATION</span></div>
                 <div class="types-wrapper">
                     <div class="types-row-1">
@@ -116,16 +142,14 @@
                             </p>
                         </div>
                         </div>
-
                     </div>
                 </div>
             </div>
             </a>
             <a name="solutions">
             <div class="solutions-section">
-                <div class="padding-sm"></div>
                 <div class="solutions-title" data-aos="fade-up">RECOGNIZE, FIGHT, ELIMINATE</div>
-                <div class="padding-xlg"></div>
+                <div class="padding-md"></div>
                 <div class="solutions-wrapper">
                     <div class="solutions-container-wrapper">
                         <div class="solutions-container left"> <!--Left-->
@@ -168,13 +192,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="padding-xlg"></div> 
                 </div>
             </div>
             </a>
             <a name="about">
                 <div class="about-section">
-                    <div class="padding-md"></div>
                     <div class="about-title" data-aos="fade-up">GROUP 6 WEBSITE</div>
                     <h1 class="subheader" data-aos="fade-up">TECH01 PT Misinformation Campaign</h1>
                     <div class="padding-lg" data-aos="fade-up"></div>
@@ -190,16 +212,12 @@
                         <h2 class="name"data-aos="fade-up">John Paul Yap</h2>
                         <h4 class="position"data-aos="fade-up">Usability Tester</h4>
                     <div class="padding-lg"data-aos="fade-up"></div>
-
-          
-
                     <div class="footer" data-aos="fade-up">
                         <h1>100% manual coding.</h1>
                         <h1>Not made with website creators.</h1>
                         <h1>Source code available on Github.</h1>
                     </div>
-    
-                    <div class="padding-xlg"></div>
+
                 </div>
             </a>
         </div>
@@ -218,6 +236,7 @@
                     $( "#typest" ).hide();
                     $( "#solutionst" ).hide();
                     $( "#aboutt" ).hide();
+                    $( "#definet" ).hide();
                     $( "#toggle-pink" ).hide();
                     hideNav = true;
                 } else if (hideNav == true) {
@@ -225,6 +244,7 @@
                     $( "#typest" ).show();
                     $( "#solutionst" ).show();
                     $( "#aboutt" ).show();
+                    $( "#definet" ).hide();
                     $( "#toggle-pink" ).show();
                     hideNav = false;
                 }

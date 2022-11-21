@@ -1,0 +1,49 @@
+.define-section {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.define-section::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+
+.define-title {
+    color: var(--whiter);
+    font-family: 'League Gothic', sans-serif;
+    font-size: 7vmax; 
+    text-align: center;
+}
+
+.define-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--whiter);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.define-desc > p {
+    text-align: justify;
+    width: 60%;
+    font-size: 24px;
+}
+
+.define-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.define-img {
+    padding: 20px;
+    text-align: center;
+}
+.define-img > h2 {
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+}
