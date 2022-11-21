@@ -66,15 +66,15 @@
                     <div class="define-title" data-aos="fade-up">CAUSES OF <span class="second">MISINFORMATION</span></div>
                     <div class="define-images" data-aos="fade-up">
                         <div class="define-img">
-                            <img src="assets/causes/collapse.png">
+                            <img src="assets/causes/collapse.png" id="define-1">
                             <h2>Collapsing traditional business models</h2>
                         </div>
                         <div class="define-img">
-                            <img src="assets/causes/transformation.png">
+                            <img src="assets/causes/transformation.png" id="define-2">
                             <h2>Digital transformation of newsrooms and storytelling</h2>
                         </div>
                         <div class="define-img">
-                            <img src="assets/causes/ecosystem.png">
+                            <img src="assets/causes/ecosystem.png" id="define-3">
                             <h2>The creation of new news ecosystems</h2>
                         </div>
                     </div>
@@ -197,6 +197,7 @@
             </a>
             <a name="about">
                 <div class="about-section">
+                    <div class="padding-sm"></div>
                     <div class="about-title" data-aos="fade-up">GROUP 6 WEBSITE</div>
                     <h1 class="subheader" data-aos="fade-up">TECH01 PT Misinformation Campaign</h1>
                     <div class="padding-lg" data-aos="fade-up"></div>
@@ -277,6 +278,10 @@
                     $("#types-img-5").attr("src","assets/types/inverted/false-inverted.png");
                     $("#types-img-6").attr("src","assets/types/inverted/manipulation-inverted.png");
 
+                    $("#define-1").attr("src","assets/causes/inverted/collapse-inverted.png");
+                    $("#define-2").attr("src","assets/causes/inverted/transformation-inverted.png");
+                    $("#define-3").attr("src","assets/causes/inverted/ecosystem-inverted.png");
+
                 } else if (pinkToggle == true) {
                     $("#toggle-pink-icon").removeClass("fa-toggle-on");
                     $("#toggle-pink-icon").addClass("fa-toggle-off"); 
@@ -302,6 +307,10 @@
                     $("#types-img-4").attr("src","assets/types/misleading.png");
                     $("#types-img-5").attr("src","assets/types/false.png");
                     $("#types-img-6").attr("src","assets/types/manipulation.png");
+
+                    $("#define-1").attr("src","assets/causes/collapse.png");
+                    $("#define-2").attr("src","assets/causes/transformation.png");
+                    $("#define-3").attr("src","assets/causes/ecosystem.png");
 
                 }
             });
