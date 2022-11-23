@@ -78,4 +78,10 @@
     .position { 
         font-size: 1rem !important;
     }
+    iframe {
+        display: none;
+    }
+    .feedback-link {
+        display: block !important;
+    }
 }

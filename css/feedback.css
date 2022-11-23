@@ -1,6 +1,6 @@
 .feedback-section {
     width: 100%;
-    height: 100%;
+    height: fit-content;
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
@@ -19,4 +19,8 @@
     font-family: 'League Gothic', sans-serif;
     font-size: 6vmax; 
     text-align: center;
+}
+
+.feedback-link {
+    display: none;
 }
