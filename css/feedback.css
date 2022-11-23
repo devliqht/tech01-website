@@ -1,0 +1,22 @@
+.feedback-section {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    padding: 20px;
+}
+.feedback-section::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+
+.feedback-title {
+    color: var(--whiter);
+    font-family: 'League Gothic', sans-serif;
+    font-size: 6vmax; 
+    text-align: center;
+}
