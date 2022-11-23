@@ -36,6 +36,7 @@
             <a href=#types id="typest" class="navbar-toggle"><i class="fa-solid fa-masks-theater fa-xl"></i></a>
             <a href=#solutions id="solutionst" class="navbar-toggle"><i class="fa-solid fa-globe fa-xl"></i></a>
             <a href=#about id="aboutt" class="navbar-toggle"><i class="fa-solid fa-circle-info fa-xl"></i></a>
+            <a href="#feedback" id="feedbackt" class="navbar-toggle"><i class="fa-solid fa-file-waveform fa-xl"></i></a>
             <a href=#something id="toggle-pink" class="navbar-toggle"><i class="fa-solid fa-toggle-off fa-xl" id="toggle-pink-icon"></i></a>
             <a href=#somethingalso id="toggle-orient"><i class="fa-solid fa-bars fa-xl"></i></a>
         </div>
@@ -225,7 +226,6 @@
             </a>
             <a name="feedback">
                 <div class="feedback-section">
-                    <div class="padding-sm"></div>
                     <div class="feedback-title">WE WANT TO HEAR FROM YOU</div>
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScRRKhG5tfAUPdZVIecqPcYg55cCgIH6NO5dDIuYlY8KJQhLw/viewform?embedded=true" width="100%" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                     <div class="footer">
@@ -250,6 +250,7 @@
                     $( "#solutionst" ).hide();
                     $( "#aboutt" ).hide();
                     $( "#definet" ).hide();
+                    $( "#feedbackt" ).hide();
                     $( "#toggle-pink" ).hide();
                     hideNav = true;
                 } else if (hideNav == true) {
@@ -258,6 +259,7 @@
                     $( "#solutionst" ).show();
                     $( "#aboutt" ).show();
                     $( "#definet" ).show();
+                    $( "#feedbackt" ).hide();
                     $( "#toggle-pink" ).show();
                     hideNav = false;
                 }
